@@ -11,4 +11,19 @@ const MAX = 100;
 let homeAddress = "31 Montrose Drive";
 let userAge = 32;
 
-console.log(homeAddress)
+console.log(typeof homeAddress)
+
+// Arithmetic
+5 + 3 // 8     10 - 4 // 6     4 * 3 // 12
+9 / 2 // 4.5   9 % 2 // 1      2 ** 3 // 8
+
+// Comparison
+5 === 5 // true    5 !== 3 // true (strict: checks type + value)
+5 == "5" // true   5 === "5" // false (loose vs strict)
+10 > 3 // true     4 <= 4 // true
+
+// Logical
+true && false // false   true || false // true   !true // false
+
+// Assignment shorthands
+let x = 10;   x += 5; // 15    x -= 2; // 13    x *=2; // 26
