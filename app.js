@@ -27,3 +27,10 @@ true && false // false   true || false // true   !true // false
 
 // Assignment shorthands
 let x = 10;   x += 5; // 15    x -= 2; // 13    x *=2; // 26
+
+// string concatenation
+console.log("The sum of 5 and 3 is: " + sum(5, 3)); 
+
+function sum(a, b)  {  
+  return a + b;
+}
